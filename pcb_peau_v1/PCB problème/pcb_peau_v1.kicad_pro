@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.7,
-          "height": 1.32,
-          "width": 1.32
+          "drill": 0.95,
+          "height": 1.95,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -111,8 +111,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.3,
-        "min_connection": 0.3,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.3,
         "min_hole_to_hole": 0.3,
@@ -123,7 +123,7 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.39999999999999997,
-        "min_track_width": 0.19999999999999998,
+        "min_track_width": 0.3,
         "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
@@ -418,7 +418,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.35,
+        "clearance": 0.4,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
